@@ -1,0 +1,234 @@
+body {
+    margin: 0em;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+h1, h2, h3, h4{
+    font-family: "Fjalla One", sans-serif;
+}
+  
+.bold{
+    font-weight: bold;
+}
+  
+.cover {
+    height: 400px;
+    background-image: url(https://riotur.rio/wp-content/uploads/2016/10/AquaRio_v02-scaled.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    
+}
+  
+.cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card-img1 {
+    background-image: url(https://i.ebayimg.com/thumbs/images/g/YlgAAOSwuHdjX9UL/s-l300.jpg);
+}
+
+.card-img2 {
+    background-image: url(https://misanimales.com/wp-content/uploads/2019/07/parte-inferior-mantarraya.jpg);
+}
+
+.card-img3 {
+    background-image: url(https://t2.ea.ltmcdn.com/es/razas/5/1/8/tiburon-ballena_815_0_600.jpg);
+}
+
+.card-img4 {
+    background-image: url(https://ibb.co/K0rNp84)
+}
+
+.card-img5 {
+    background-image: url(https://ibb.co/1K74w4n);
+}
+
+.card-img6 {
+    background-image: url(https://ibb.co/M7qsr3k);
+}
+
+.card-img7 {
+    background-image: url(https://ibb.co/frDkDvt);
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.responsive-iframe {
+    position: relative;
+    padding-top: 56.25%;
+  }
+
+  .responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+   /*:::::Botón subir:::::*/
+   .btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: scale(0);
+    transition: 0.3s;
+  }
+  
+  .btn-scrolltop-on {
+    transform: scale(1);
+  }
+
+  /*:::::Pie de Página::::: */
+  .foot{
+    width: 100%;
+    background-color: #010811;
+  }
+  
+  .foot .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  
+  .foot .group-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foot .group-1 .box figure img{
+    width: 350px;
+  }
+  
+  .foot .group-1 .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  
+  .foot .group-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+  
+  .foot .group-1 .social-media a{
+    display:inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  
+  .foot .group-1 .social-media a:hover{
+    color: aqua;
+  }
+  
+  .foot .group-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .foot .group-2 small{
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width:800px){
+      .foot .group-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+    }
+  }
+  
+  .justify-text{
+    text-align: justify;
+  }
+  
+  .center-text{
+    text-align: center;
+  }
+
+  .headers {
+    color: #014996;
+  }
+
+  .sizes {
+    width: 75%;
+    height: 100%;
+  }
+
+  /** Tabla de datos **/
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+}
+
+.content-table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+  border-bottom: 2px solid #009879;
+}
+
+.row.content {
+  height: 550px
+}
+
+.sidenav {
+background-color: #f1f1f1;
+height: 100%;
+}
+  
+@media screen and (max-width: 767px) {
+.row.content {height: auto;} 
+}
